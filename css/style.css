@@ -29,13 +29,14 @@
 
 /* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; overflow-x: hidden; }
+html { scroll-behavior: smooth; overflow-x: hidden; overflow-x: clip; }
 body {
   font-family: var(--font-bn);
   color: var(--text);
   background: var(--bg);
   line-height: 1.7;
   overflow-x: hidden;
+  overflow-x: clip;
 }
 body.lang-en { font-family: var(--font-en); }
 body.lang-en h1, body.lang-en h2, body.lang-en h3, body.lang-en h4,
